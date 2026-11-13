@@ -27,6 +27,7 @@ export default defineConfig({
       formats: ["umd"],
       fileName: "scripts",
     },
+    cssCodeSplit: false,
     rollupOptions: {
       external: [
         'axios',
