@@ -15,7 +15,6 @@
   Copyright Buildbot Team Members
 */
 
-import './GridView.scss' 
 import {describe, expect, it} from "vitest";
 import {
   Build,
